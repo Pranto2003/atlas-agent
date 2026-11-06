@@ -1,0 +1,5 @@
+{"name":"Cortex Research → Slack digest","nodes":[
+{"parameters":{"rule":{"interval":[{"field":"weeks"}]}},"name":"Weekly","type":"n8n-nodes-base.scheduleTrigger","typeVersion":1.2,"position":[0,0]},
+{"parameters":{"method":"POST","url":"http://localhost:8000/api/webhook/n8n","sendBody":true,"specifyBody":"json","jsonBody":"{\"question\":\"What are the latest developments in AI agent frameworks?\",\"depth\":\"standard\"}","options":{"timeout":180000}},"name":"Cortex Research","type":"n8n-nodes-base.httpRequest","typeVersion":4.2,"position":[260,0]},
+{"parameters":{"values":{"string":[{"name":"text","value":"={{$json.markdown}}"}]}},"name":"Format","type":"n8n-nodes-base.set","typeVersion":1,"position":[520,0]}],
+"connections":{"Weekly":{"main":[[{"node":"Cortex Research","type":"main","index":0}]]},"Cortex Research":{"main":[[{"node":"Format","type":"main","index":0}]]}}}

@@ -1,0 +1,104 @@
+{
+  "trained_at": "2026-11-06",
+  "model": "GradientBoostingClassifier(250 trees)",
+  "features": [
+    "prec",
+    "rec",
+    "bigram_prec",
+    "seq_ratio",
+    "len_ratio",
+    "num_new",
+    "num_miss",
+    "ent_new",
+    "neg_diff",
+    "antonym_flip",
+    "new_content",
+    "new_content_frac",
+    "contains"
+  ],
+  "articles": 10,
+  "train_pairs": 2645,
+  "test_pairs": 1112,
+  "split": "by article (no leakage)",
+  "learned": {
+    "auc": 1.0,
+    "accuracy": 0.999,
+    "precision": 0.997,
+    "recall": 1.0,
+    "f1": 0.998
+  },
+  "baseline_overlap": {
+    "auc": 0.945,
+    "accuracy": 0.671,
+    "precision": 0.46,
+    "recall": 1.0,
+    "f1": 0.63
+  },
+  "per_error_type": {
+    "addon": {
+      "n": 180,
+      "learned_acc": 1.0,
+      "baseline_acc": 0.433
+    },
+    "antonym": {
+      "n": 34,
+      "learned_acc": 1.0,
+      "baseline_acc": 0.0
+    },
+    "clause": {
+      "n": 112,
+      "learned_acc": 1.0,
+      "baseline_acc": 1.0
+    },
+    "entity": {
+      "n": 73,
+      "learned_acc": 1.0,
+      "baseline_acc": 0.0
+    },
+    "negation": {
+      "n": 89,
+      "learned_acc": 1.0,
+      "baseline_acc": 0.0
+    },
+    "number": {
+      "n": 64,
+      "learned_acc": 1.0,
+      "baseline_acc": 0.0
+    },
+    "off-topic": {
+      "n": 180,
+      "learned_acc": 1.0,
+      "baseline_acc": 1.0
+    },
+    "paren": {
+      "n": 20,
+      "learned_acc": 1.0,
+      "baseline_acc": 1.0
+    },
+    "same-topic-other": {
+      "n": 180,
+      "learned_acc": 0.994,
+      "baseline_acc": 0.978
+    },
+    "verbatim": {
+      "n": 180,
+      "learned_acc": 1.0,
+      "baseline_acc": 1.0
+    }
+  },
+  "feature_importance": {
+    "contains": 0.886,
+    "len_ratio": 0.09,
+    "prec": 0.015,
+    "new_content": 0.005,
+    "new_content_frac": 0.004,
+    "seq_ratio": 0.0,
+    "rec": 0.0,
+    "bigram_prec": 0.0,
+    "num_miss": 0.0,
+    "num_new": 0.0,
+    "ent_new": 0.0,
+    "neg_diff": 0.0,
+    "antonym_flip": 0.0
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "summary": {
+    "runs": 8,
+    "success_rate": 1.0,
+    "median_seconds": 60.8,
+    "mean_grounding": 1.0,
+    "mean_sources_cited": 6.6,
+    "total_retries_absorbed": 45,
+    "total_warnings_survived": 17
+  },
+  "runs": [
+    {
+      "question": "How does retrieval-augmented generation reduce LLM hallucinations?",
+      "status": "done",
+      "seconds": 113.5,
+      "claims": 14,
+      "verified": 14,
+      "grounding": 1.0,
+      "sources_cited": 8,
+      "sections": 5,
+      "retries": 8,
+      "warnings": 2,
+      "critic_rounds": 1
+    },
+    {
+      "question": "What are the main challenges of nuclear fusion power?",
+      "status": "done",
+      "seconds": 58.1,
+      "claims": 18,
+      "verified": 18,
+      "grounding": 1.0,
+      "sources_cited": 8,
+      "sections": 5,
+      "retries": 4,
+      "warnings": 0,
+      "critic_rounds": 0
+    },
+    {
+      "question": "How do mRNA vaccines work and what are their limitations?",
+      "status": "done",
+      "seconds": 57.7,
+      "claims": 18,
+      "verified": 18,
+      "grounding": 1.0,
+      "sources_cited": 6,
+      "sections": 5,
+      "retries": 6,
+      "warnings": 4,
+      "critic_rounds": 0
+    },
+    {
+      "question": "What is the current state of quantum error correction?",
+      "status": "done",
+      "seconds": 61.7,
+      "claims": 17,
+      "verified": 17,
+      "grounding": 1.0,
+      "sources_cited": 6,
+      "sections": 5,
+      "retries": 6,
+      "warnings": 0,
+      "critic_rounds": 0
+    },
+    {
+      "question": "How does CRISPR gene editing work and what are the ethical concerns?",
+      "status": "done",
+      "seconds": 58.7,
+      "claims": 18,
+      "verified": 18,
+      "grounding": 1.0,
+      "sources_cited": 6,
+      "sections": 5,
+      "retries": 5,
+      "warnings": 5,
+      "critic_rounds": 0
+    },
+    {
+      "question": "What causes antibiotic resistance and how can it be slowed?",
+      "status": "done",
+      "seconds": 63.5,
+      "claims": 15,
+      "verified": 15,
+      "grounding": 1.0,
+      "sources_cited": 7,
+      "sections": 4,
+      "retries": 5,
+      "warnings": 0,
+      "critic_rounds": 1
+    },
+    {
+      "question": "How do transformer neural networks process language?",
+      "status": "done",
+      "seconds": 59.9,
+      "claims": 16,
+      "verified": 16,
+      "grounding": 1.0,
+      "sources_cited": 7,
+      "sections": 5,
+      "retries": 4,
+      "warnings": 0,
+      "critic_rounds": 0
+    },
+    {
+      "question": "What are the trade-offs of solar power versus wind power?",
+      "status": "done",
+      "seconds": 70.3,
+      "claims": 17,
+      "verified": 17,
+      "grounding": 1.0,
+      "sources_cited": 5,
+      "sections": 5,
+      "retries": 7,
+      "warnings": 6,
+      "critic_rounds": 0
+    }
+  ]
+}
